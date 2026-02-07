@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Ukrainian Tax Manager",
+    "slug": "my-app-update",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#F9FAFB"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ua.taxmanager",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#F9FAFB"
+      },
+      "package": "com.ua.taxmanager"
+    },
+    "scheme": "my-app-update",
+    "plugins": [
+      "expo-router"
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "b12bb000-9705-4f47-9e5a-773c0f935eb5"
+      }
+    }
+  }
+}
