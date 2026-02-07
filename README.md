@@ -20,43 +20,6 @@ A React Native app built with Expo for managing Ukrainian tax calculations and f
 - **Charts**: victory-native
 - **Icons**: lucide-react-native
 
-## Installation
-
-```bash
-npm install
-```
-
-## Running the App
-
-```bash
-npm start
-```
-
-Then press:
-- `a` for Android
-- `i` for iOS
-- `w` for web
-
-## Project Structure
-
-```
-├── app/                    # Expo Router pages
-│   ├── _layout.tsx        # Root layout
-│   ├── index.tsx          # Dashboard
-│   ├── analytics.tsx      # Analytics screen
-│   └── wallet/[id].tsx    # Wallet detail screen
-├── components/            # Reusable components
-│   ├── MonthSelector.tsx
-│   ├── ExpenseDonutChart.tsx
-│   ├── RevenueTaxProgress.tsx
-│   └── IncomeExpenseLineChart.tsx
-├── services/              # Business logic
-│   ├── TaxCalculator.ts  # Ukrainian tax rules
-│   ├── ExchangeRateService.ts  # NBU API integration
-│   └── StorageService.ts  # AsyncStorage wrapper
-├── types/                 # TypeScript types
-└── utils/                 # Utility functions
-```
 
 ## Tax Groups
 
@@ -65,7 +28,7 @@ Then press:
 - **Group 3**: 5% Unified Tax from revenue + 1% Military Tax from revenue
 - **ESV**: Fixed expense (~1903 UAH/mo) - treated as expense with isESV flag
 
-## License
+## Linc
+https://tax-manager-9e259.web.app/
 
-MIT
 
